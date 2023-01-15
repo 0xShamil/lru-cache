@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.shamil</groupId>
+    <artifactId>lru-cache</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>lru-cache</name>
+    <description>A fast, lightweight LRU cache implementation in Java.</description>
+    <url>https://github.com/0xShamil/lru-cache</url>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0 License</name>
+            <url>https://github.com/0xShamil/lru-cache/blob/main/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>0xShamil</name>
+            <url>https://github.com/0xShamil</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com:0xShamil/lru-cache.git</connection>
+        <developerConnection>scm:git:ssh://github.com:0xShamil/lru-cache.git</developerConnection>
+        <url>https://github.com/0xShamil/lru-cache/blob/main</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
