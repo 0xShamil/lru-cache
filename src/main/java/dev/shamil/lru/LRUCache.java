@@ -41,7 +41,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package dev.shamil;
+package dev.shamil.lru;
 
 import java.time.Duration;
 import java.util.Objects;

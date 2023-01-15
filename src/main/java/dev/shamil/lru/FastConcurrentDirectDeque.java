@@ -47,7 +47,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package dev.shamil;
+package dev.shamil.lru;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;

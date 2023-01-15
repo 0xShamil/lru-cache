@@ -1,5 +1,6 @@
 package dev.shamil;
 
+import dev.shamil.lru.LRUCache;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
