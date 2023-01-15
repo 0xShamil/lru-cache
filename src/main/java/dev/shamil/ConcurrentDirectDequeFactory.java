@@ -54,12 +54,12 @@ final class ConcurrentDirectDequeFactory {
     static {
         boolean fast = false;
         try {
-            new UnsafeConcurrentDirectDeque<>();
+            new FastConcurrentDirectDeque<>();
             fast = true;
         } catch (Throwable t) {
         }
 
-        Class<? extends ConcurrentDirectDeque> impl = fast ? UnsafeConcurrentDirectDeque.class : PortableConcurrentDirectDeque.class;
+        Class<? extends ConcurrentDirectDeque> impl = fast ? FastConcurrentDirectDeque.class : PortableConcurrentDirectDeque.class;
         try {
             CONSTRUCTOR = impl.getConstructor();
         } catch (NoSuchMethodException e) {
