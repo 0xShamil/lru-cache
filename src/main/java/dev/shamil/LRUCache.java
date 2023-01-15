@@ -80,7 +80,7 @@ public final class LRUCache<K, V> {
         this.maxEntries = maxEntries;
         this.maxAge = maxAge;
         this.cache = new ConcurrentHashMap<>(initialCapacity);
-        this.accessQueue = new UnsafeConcurrentDirectDeque<>();
+        this.accessQueue = new FastConcurrentDirectDeque<>();
     }
 
     public void put(K key, V newValue) {
